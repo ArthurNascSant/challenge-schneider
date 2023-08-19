@@ -66,7 +66,7 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./news.html">Notícias</a>
+                  <a class="nav-link" href="./learning.html">E-learning</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./about.html">Sobre o projeto</a>
@@ -104,6 +104,17 @@
     </header>
     <main id="main-container">
       <div class="container-fluid px-lg-5">
+        <div class="alert alert-info" role="alert">
+          <h4 class="alert-heading fw-bold">
+            Desafio da semana! <i class="bi bi-lightning-charge"></i>
+          </h4>
+          <p>
+            Compartilhe com seus colegas 3 posts relacionados à economia de
+            energia.
+          </p>
+          <hr />
+          <p class="mb-0 fw-semibold">0/3 conclúido</p>
+        </div>
         <div
           class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-gap-4"
         >
@@ -780,14 +791,19 @@
         </div>
       </div>
     </main>
-    <footer class="bg-dark">
-      <div class="container-fluid row pt-5 pb-4 px-3 px-md-5">
+    <footer class="bg-dark container-fluid">
+      <div
+        class="row row-cols-3 row-cols-sm-4 row-cols-lg-5 px-1 px-lg-5 py-4 d-flex align-items-center"
+      >
         <div class="col">
           <h6 class="text-white-50 mb-3">Links rápidos</h6>
           <ul class="list-unstyled mb-0 vstack gap-2">
             <li>
-              <a href="./news.html" class="text-decoration-none link-secondary">
-                Notícias
+              <a
+                href="./learning.html"
+                class="text-decoration-none link-secondary"
+              >
+                E-learning
               </a>
             </li>
             <li>
@@ -850,7 +866,7 @@
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col mt-4 mt-sm-0">
           <h6 class="text-white-50 mb-3">Lorem</h6>
           <ul class="list-unstyled mb-0 vstack gap-2">
             <li>
@@ -870,7 +886,13 @@
             </li>
           </ul>
         </div>
-        <img src="./assets/logo-footer.svg" alt="Schneider Life is On" />
+        <div class="col">
+          <img
+            class="img-fluid"
+            src="./assets/logo-footer.svg"
+            alt="Schneider Life is On"
+          />
+        </div>
       </div>
     </footer>
     <div id="comments-modal" class="modal" tabindex="-1">
@@ -991,6 +1013,7 @@
                         >
                           Curtir
                         </button>
+                        <span class="align-middle text-body-tertiary">•</span>
                         <button
                           data-id="comment-reply"
                           type="button"
